@@ -1,10 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-
+import 'package:device_preview/device_preview.dart';
 import 'home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    DevicePreview(
+      backgroundColor: Colors.white,  // Professional, clean background
+      enabled: true,                 // Let the magic begin!
+      defaultDevice: Devices.ios.iPhone13ProMax,  // Start with a bang
+      isToolbarVisible: true,                     // Give users control
+      availableLocales: [Locale('en', 'US')],    // Keep it focused
+      tools: const [
+        DeviceSection(
+          model: true,          // Let them switch devices
+          orientation: false,   // Keep it simple
+          frameVisibility: false, // Clean presentation
+          virtualKeyboard: false, // Focus on the UI
+        ),
+      ],
+      builder: (context) => const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
