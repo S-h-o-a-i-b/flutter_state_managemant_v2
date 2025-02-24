@@ -1,16 +1,34 @@
-# flutter_state_managemant_v2
+# 
 
-A new Flutter project.
+# **🐬 Flutter State Management App**
 
-## Getting Started
+A Flutter-based mobile application demonstrating **state management techniques** while showcasing popular tourist destinations in Bangladesh. The app features a **grid-based UI**, beautiful images, detailed descriptions, and smooth navigation between different pages.
 
-This project is a starting point for a Flutter application.
+# **Screenshots**
 
-A few resources to get you started if this is your first Flutter project:
+## **Home Page**
+![abc](assets/images/101.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **Calculate Page**
+![screenshot](assets/images/102.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Calculation**
+![screenshot](assets/images/103.png)
+
+## 😱 **Live Demo**
+https://s-h-o-a-i-b.github.io/flutter_state_managemant_v2/
+
+## ✨ Features
+
+- 🔄 **Demonstrates Flutter state management concepts**
+- 🗺️ **Displays famous tourist spots** in a dynamic grid layout
+- 👆 **Click on any place** to view its details and images
+- 🔔 **Uses FlutterToast notifications** for user feedback
+- 🎨 **Modern UI with Google Fonts for a sleek design**
+
+## 👤 Author
+
+**Faysal Bin Alauddin**  
+📧 Email: faysalf716@gmail.com  
+🔗 GitHub: [Faysal Bin Alauddin](https://github.com/faysalcsecu)  
+🔗 LinkedIn: [Faysal Bin Alauddin](https://www.linkedin.com/in/faysal-bin-alauddin-4815a92a7/)
